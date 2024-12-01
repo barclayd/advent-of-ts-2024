@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-ts-2024",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Typescript 2024",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:type": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "type-testing": "^0.2.0",
+    "typescript": "^5.7.2"
+  }
+}

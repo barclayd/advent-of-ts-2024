@@ -1,0 +1,15 @@
+.env
+.env.defaults
+.env.example
+.DS_Store
+.idea/
+.vscode/
+*.orig
+*.pyc
+*.swp
+.deno/
+deno.lock
+coverage/
+dist/
+node_modules/
+npm-debug.log*
