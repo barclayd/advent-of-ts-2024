@@ -4,11 +4,6 @@
 .DS_Store
 .idea/
 .vscode/
-*.orig
-*.pyc
-*.swp
-.deno/
-deno.lock
 coverage/
 dist/
 node_modules/
