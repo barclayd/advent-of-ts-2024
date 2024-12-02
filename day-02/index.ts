@@ -1,8 +1,8 @@
 import type { Expect, Equal } from 'type-testing';
 
-type Demand = 900000;
+type ValidNumber<T> = T extends number & (number extends T ? never : unknown) ? T : never;
 
-type t0_actual = Demand;
+type t0_actual = ValidNumber<900000>;
 type t0_expected = 900_000;
 type t0 = Expect<Equal<t0_actual, t0_expected>>;
 
